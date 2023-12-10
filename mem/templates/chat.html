@@ -1,0 +1,25 @@
+<!-- chat/templates/chat/chat.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+</head>
+<body>
+    <h1>Chat Application</h1>
+    <iframe
+        allow="microphone;"
+        width="350"
+        height="430"
+        src="https://console.dialogflow.com/api-client/demo/embedded/74be198b-29a3-49f1-8553-eb413d78453b">
+    </iframe>
+    
+    <div id="chat-container">
+        {% for message in chat_history %}
+            <p><strong>{{ message.sender }}:</strong> {{ message.message }}</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
