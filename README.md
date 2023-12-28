@@ -2,7 +2,9 @@
 
 # NetBot
 
-Introducing NetBot, a game-changing AI-powered assistant that takes the complexity out of creating policies for your network. This cutting-edge language model (LLM) driven bot is designed with simplicity in mind, allowing users to effortlessly create policies without the need for extensive technical certification. With NetBot, you can bid farewell to the cumbersome learning curves associated with traditional network systems. 
+The AI-powered policy management engine utilizes the Code Llamma LLM to interpret user intent expressed in plain English, eliminating the need for IOSXE CLI commands. Trained on a dataset of IOSXE commands, the
+model employs advanced language processing techniques to generate corresponding commands for suggested network policy changes. This innovative system enhances user accessibility by allowing for intuitive, language-based input, streamlining the policy adjustment process.
+
 
 ## Installation
 
