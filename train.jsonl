@@ -3,3 +3,5 @@
 {"text": "<s>[INST] Create a new VLAN 5 named control_vlan on port 0/1 [/INST] enable, conf t, vlan 5, name control_vlan, conf t, interface Ethernet 0/1, switchport mode access, switchport access vlan 5</s>"}
 {"text": "<s>[INST] Establish a VLAN 5 named control_vlan on port 0/1 [/INST] enable, conf t, vlan 5, name control_vlan, conf t, interface Ethernet 0/1, switchport mode access, switchport access vlan 5</s>"}
 {"text": "<s>[INST] Establish a VLAN 6 named sample_vlan on port 0/2 [/INST] enable, conf t, vlan 6, name sample_vlan, conf t, interface Ethernet 0/2, switchport mode access, switchport access vlan 6</s>"}
+{"text" : "<s>[INST] Establish a VLAN 6 named sample_vlan on ethernet port 0/2 [/INST] enable, conf t, vlan 6, name sample_vlan, conf t, interface Ethernet 0/3, switchport mode access, switchport access vlan 7</s>"}
+
